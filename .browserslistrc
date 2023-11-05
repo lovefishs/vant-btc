@@ -1,0 +1,11 @@
+# Browsers that we support
+# Take await as a compatible target(use at module top level)
+# https://caniuse.com/?search=await
+# https://caniuse.com/?search=modules%20via%20script%20tag
+
+last 2 version
+Edge >= 89
+Firefox >= 89
+Chrome >= 89
+Safari >= 15
+Opera >= 75

@@ -1,0 +1,50 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+dist-ssr
+tmp
+/out-tsc
+apps/*/dist
+
+# lock
+package-lock.json
+yarn-lock.json
+pnpm-lock.yaml
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.local
+
+# IDE - VSCode
+.vscode/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Next.js
+.next
+
+# bundle-analyzer
+analyze
